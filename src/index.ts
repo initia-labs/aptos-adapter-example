@@ -22,6 +22,7 @@ import {
 
 (async () => {
   const initiaConfig = new InitiaConfig('https://lcd.initiation-1.initia.xyz');
+  // newly generated mnemonic for testing only
   const key = new MnemonicKey({
     mnemonic:
       'infant ribbon limit blood arrow because wing weasel judge stem thrive connect cattle quote habit host bunker forum prefer fresh filter chapter echo fortune',
